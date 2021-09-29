@@ -12,9 +12,63 @@
     #container {
         background-color: white;
         margin: 10px;
-        background-image: ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #signin {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    #div1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+    }
+    
+    #face {
+        width: 20%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 10px;
+        border: 1px solid dimgray;
+        margin-right: 10px;
+    }
+    
+    .p1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #google {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        border-radius: 10px;
+        border: 1px solid dimgray;
+        margin-left: 10px;
+    }
+    
+    span {
+        margin: 7px;
     }
     
     img {
-        width: 7%;
+        width: 15%;
     }
